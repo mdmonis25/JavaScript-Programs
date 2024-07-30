@@ -1,17 +1,16 @@
-// 12 - 21
-/*function revNum(num){
-    return Number(num.toString().split("").reverse().join(""));
-}
-console.log(revNum(2111));*/
+//Reversing Number
+//Without Converting it to String
 
-function reverseNum(num){
-    var rev = 0;
-    while(num>0){ //121
-        rev = rev*10 + num%10;
-        console.log("rev ",rev);
-        num = Math.floor(num/10);
-        console.log("num ",num)
-    }
-    return rev;
-}
-console.log(reverseNum(123));
+// let num = 1234;
+// let rev=0;
+// while(num!==0){
+//     rev = rev*10 + num%10; 
+//     num = Math.floor(num/10);
+// }
+// console.log(rev);
+
+//With Converting it to a String
+
+let num = 654321;
+let rev = Number(num.toString().split("").reverse().join(""));
+console.log(typeof(rev));
