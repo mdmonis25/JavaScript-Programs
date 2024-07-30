@@ -10,7 +10,7 @@
 console.log(retrieve([1,2,3,4,5],2));*/
 
 // freverse order
-function retrieve(arr, n = 1) {
+function retrieve(arr, n) {
   if (n > arr.length) {
     console.log("Itne elements nahi hai");
   } else {

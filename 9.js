@@ -1,9 +1,6 @@
 // Capitalize first letter of each word in string
-cap = (str) =>{
-    var arrs = str.split(" ").map(function(word){
-        return word.charAt(0).toUpperCase() + word.substring(1);
-    })
-    return arrs.join(" ");
-}
-
-console.log(cap("people think what people think"));
+let a = "capitalize each letter in string.";
+let m = a.split(" ").map((word)=>{
+    return word.charAt(0).toUpperCase()+word.substring(1);
+});
+console.log(m.join(" "));
