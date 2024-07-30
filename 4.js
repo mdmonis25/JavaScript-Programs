@@ -1,11 +1,13 @@
 //How to check if a number is integer or not
+// Using isInterger function in Number Class
 
-let m = 12.11;
-
+// let m = 123.11;
 // console.log(Number.isInteger(m));
-if(m%1===0){
-    console.log("Integer");
-}
-else{
-    console.log("Not Integer")
-}
+
+// Without Using any Function
+
+let d = 12.11;
+if(d%1===0) console.log(d+" is Integer");
+else console.log(d,"is not Integer");
+
+
