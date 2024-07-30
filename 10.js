@@ -1,11 +1,11 @@
-//Checking occurences of letters in a sentence
-occurences = (str) =>{
-    var ocr = {};
-    str.split("").forEach(element => {
-        // hasOwnProperty checks weather it has that property or not
-        if(ocr.hasOwnProperty(element) === false) ocr[element] = 1;
-        else ocr[element]++;
-    });
-    return ocr;
+function occurences(str) {
+  let occ = {};
+  str.split("").forEach((e) => {
+    if(occ.hasOwnProperty(e)){
+        occ[e]++;
+    }
+    else occ[e] = 1;
+  });
+  return occ;
 }
-console.log(occurences("apple"))
+console.log(occurences("monnnis"));
