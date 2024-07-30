@@ -1,8 +1,6 @@
 // Palindrome Check
 
-isPalindrome = (str) => {
-    var rev = str.split('').reverse().join('');
-    if(str === rev) return true;
-    else return false;
-}
-console.log(isPalindrome("kook"))
+let s = "level";
+let r = s.split("").reverse().join("");
+if(s==r) console.log(s,"is Palindrome.");
+else console.log(s,"is not a Palindrome.");
