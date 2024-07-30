@@ -1,6 +1,4 @@
 // How to duplicate array 
 
-function duplicateArr(arr){
-    return arr.concat(arr);
-}
-console.log(duplicateArr([12,21,28,10]))
+let arr = [2,3,4,5];
+console.log(arr.concat(arr));
